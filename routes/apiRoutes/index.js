@@ -8,8 +8,9 @@ router.get("/notes", (req, res) => {
 });
 
 router.delete("/notes/:id", (req, res) => {
-  notes = deleteNoteById(req.params.id, notes);
-  if (notes) {
+  let updatedNotes = deleteNoteById(req.params.id, notes);
+  if (updatedNotes) {
+    notes = updatedNotes;
     res.json(notes);
   } else {
     res.send(404);
