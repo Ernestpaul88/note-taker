@@ -18,6 +18,8 @@ If you already have node installed the only step for installing the project is r
 
 To start the project you need to run 'npm start' from the root directory.
 
+https://ernest-note-taker.herokuapp.com/
+
 ## Questions:
 
 - You can email me at ernestpaul88@gmail.com if you have any questions.
